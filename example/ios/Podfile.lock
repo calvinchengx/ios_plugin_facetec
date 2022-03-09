@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  facetec_testing_plugin: b734e28bc880419bcac34091f9765138c4293d7f
+  facetec_testing_plugin: 13861cef9f2e1b33ed83e5ae80ea3f5c0ef1f897
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
