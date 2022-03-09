@@ -1,0 +1,15 @@
+apply plugin: "maven-publish"
+
+configurations.maybeCreate("default")
+def publishArtifact = artifacts.add("default", file('facetec.aar'))
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId = 'com.facetec.sdk'
+            artifactId = 'somerandomname'
+            version = '1.0.0'
+            artifact publishArtifact
+        }
+    }
+}
